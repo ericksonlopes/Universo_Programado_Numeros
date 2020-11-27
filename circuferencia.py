@@ -19,8 +19,12 @@ for num in range(1, 9):
         # divide a quatidade de graus pelo numero da vez
         div = int(circulo_graus / num)
 
-        print(div, num, '\n')
+        print(f'[{"subtração":^5}]', f'[{"soma do algarismo":^5}]', f'[{num} / {390} = {int(360 / num)}]')
+        while circulo_graus >= 0:
+            print(f'[{circulo_graus:^9}]', f'[{soma_algarismo(circulo_graus):^5}]')
+            circulo_graus = circulo_graus - div
+        print()
 
     else:
         print('O número 7, não entra de acordo por sua divizão '
-              'ser uma dizima periodica com o resultado equivalente a: ')
+              f'ser uma dizima periodica com o resultado equivalente a: {360 / 7} \n')
