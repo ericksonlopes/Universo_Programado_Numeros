@@ -19,8 +19,8 @@ for num in range(1, 10):
         # divide a quatidade de graus pelo numero da vez
         div = int(circulo_graus / num)
 
-        print(f'[{"Subtração":^11}]', f'[{"Resultado":^6}]',
-              f'[{"soma do algarismo":^5}]', f'[{num} / {390} = {int(360 / num)}]')
+        print(f'[{str(num) + " dividido por " + str(circulo_graus) + " é igual a " + str(div):^43}]')
+        print(f'[{"Subtração":^11}]', f'[{"Resultado":^6}]', f'[{"soma do algarismo":^5}]')
 
         while circulo_graus >= 0:
             print(f'[{str(circulo_graus) + "-" + str(div):^11}]',
