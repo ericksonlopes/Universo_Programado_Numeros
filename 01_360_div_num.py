@@ -10,6 +10,22 @@ def soma_algarismo(dado_recebido):
     return final
 
 
+def escolher_num():
+    numero = int(input("Digite um número: "))
+    circulo = 360
+    divi = circulo / numero
+
+    print(f'{numero} dividido por {circulo} é igual a {divi}')
+
+    contador = 1
+    while contador != 9:
+        circulo = circulo - divi
+        print(circulo)
+        contador += 1
+        if circulo == 0:
+            break
+
+
 # for para percorrer os 9 numeros
 for num in range(1, 10):
     if num != 7:

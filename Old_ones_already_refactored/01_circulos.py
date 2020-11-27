@@ -40,14 +40,14 @@ def circulo_numero(num):
         print()
 
 
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # list(map(circulo_numero, lista))
-
-mult_5 = lambda num=5: [print(f'[{num:^3} x {mult:^3}] = {num * mult:^4}'
-                              f' {soma_algoritmo(num * mult)}') for mult in range(1, 10)]
-mult_5()
-
-print()
+#
+# mult_5 = lambda num=5: [print(f'[{num:^3} x {mult:^3}] = {num * mult:^4}'
+#                               f' {soma_algoritmo(num * mult)}') for mult in range(1, 10)]
+# mult_5()
+#
+# print()
 
 
 num = int(input("Digite um número: "))
