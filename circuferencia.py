@@ -11,7 +11,7 @@ def soma_algarismo(dado_recebido):
 
 
 # for para percorrer os 9 numeros
-for num in range(1, 9):
+for num in range(1, 10):
     if num != 7:
         # variavel com a quantidade de graus de uma circuferencia
         circulo_graus = 360
@@ -19,9 +19,12 @@ for num in range(1, 9):
         # divide a quatidade de graus pelo numero da vez
         div = int(circulo_graus / num)
 
-        print(f'[{"subtração":^5}]', f'[{"soma do algarismo":^5}]', f'[{num} / {390} = {int(360 / num)}]')
+        print(f'[{"Subtração":^11}]', f'[{"Resultado":^6}]',
+              f'[{"soma do algarismo":^5}]', f'[{num} / {390} = {int(360 / num)}]')
+
         while circulo_graus >= 0:
-            print(f'[{circulo_graus:^9}]', f'[{soma_algarismo(circulo_graus):^5}]')
+            print(f'[{str(circulo_graus) + "-" + str(div):^11}]',
+                  f'[{circulo_graus:^9}]', f'[{soma_algarismo(circulo_graus):^17}]')
             circulo_graus = circulo_graus - div
         print()
 
