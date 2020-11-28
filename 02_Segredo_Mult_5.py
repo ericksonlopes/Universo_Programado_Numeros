@@ -19,15 +19,13 @@ def soma_algarismo(dado_recebido):
 
 
 for numero in range(1, 10):
-    lista_cinco = [cinco for cinco in range(5, 50, 5)]
-    print(lista_cinco)
+    lista_cinco = [5, 10, 15, 20, 25, 30, 35, 40, 45]
     multiplicacao = 5 - numero  # 4 3 2 1 0 -1 -2 -3 -4
 
     for c in range(1, 10):
         if numero < 5:
-            print(c)
-            resultadosub = (multiplicacao - lista_cinco[c]) * - 1
-            print(f'{numero} x {c} = {numero * c}  {lista_cinco[c]:>2} - {multiplicacao:>2} = {resultadosub:<2}')
+            resultadosub = (multiplicacao - lista_cinco[int(c) - 1]) * - 1
+            print(f'{numero} x {c} = {numero * c:<3}  {lista_cinco[c -1]:>2} - {multiplicacao:<2} = {resultadosub:<2}')
             multiplicacao += 5 - numero
     print()
 
