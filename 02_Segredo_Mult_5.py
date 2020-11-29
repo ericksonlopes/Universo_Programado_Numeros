@@ -20,14 +20,39 @@ def soma_algarismo(dado_recebido):
 
 for numero in range(1, 10):
     lista_cinco = [5, 10, 15, 20, 25, 30, 35, 40, 45]
-    multiplicacao = 5 - numero  # 4 3 2 1 0 -1 -2 -3 -4
 
+    # criar uma função para exibir
+    print(f'{"Número da vez " + str(numero - 5):^25} ')
     for c in range(1, 10):
+        num_opera = 0
         if numero < 5:
-            resultadosub = (multiplicacao - lista_cinco[int(c) - 1]) * - 1
-            print(f'{numero} x {c} = {numero * c:<3}  {lista_cinco[c -1]:>2} - {multiplicacao:<2} = {resultadosub:<2}')
-            multiplicacao += 5 - numero
+            num_opera = '- ' + str(((numero - 5) * c) * - 1)
+
+        elif numero > 5:
+            num_opera = '+ ' + str((numero - 5) * c)
+
+        print(f'  {numero} x {c} = {numero * c:<3} '
+              f' {lista_cinco[c - 1]:>2} {num_opera:^3} = {numero * c:<2}')
     print()
+
+
+# for numero in range(1, 10):
+#     lista_cinco = [5, 10, 15, 20, 25, 30, 35, 40, 45]
+#
+#     # criar uma função para exibir
+#     print(f'{"Número da vez " + str(numero):^25}')
+#     for c in range(1, 10):
+#         if numero < 5:
+#             # exibe os resultados
+#             print(f'{numero} x {c} = {numero * c:<3} '
+#                   f' {lista_cinco[c - 1]:>2} - {((numero - 5) * c) * - 1:^3} = {numero * c:<2}')
+#         elif numero > 5:
+#             # exibe os resultados
+#             print(f'{numero} x {c} = {numero * c:<3} '
+#                   f' {lista_cinco[c - 1]:>2} + {(numero - 5) * c :^3} = {numero * c:<2}')
+#         else:
+#             print(f'{numero} x {c} = {numero * c:<3}')
+#     print()
 
 # def mul_5(numero):
 #     lista_cinco = [cinco for cinco in range(5, 50, 5)]
