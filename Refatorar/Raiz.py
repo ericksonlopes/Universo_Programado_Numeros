@@ -14,9 +14,9 @@ def fracoes_exatas(limite):
 
 fracoes_exatas(100)
 
-
-def soma_numero(num):
-    numero = sum(list(map(lambda num_int: int(num_int), list(filter(lambda s_numero: s_numero.isnumeric(), str(num))))))
-    return numero
-
-print(soma_numero('3u61250'))
+#
+# def soma_numero(num):
+#     numero = sum(list(map(lambda num_int: int(num_int), list(filter(lambda s_numero: s_numero.isnumeric(), str(num))))))
+#     return numero
+#
+# print(soma_numero('3u61250'))
