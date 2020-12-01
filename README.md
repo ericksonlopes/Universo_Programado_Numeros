@@ -13,4 +13,5 @@ https://github.com/Erickson-lopes-dev/Universo_Programado_Numeros/blob/master/02
 
 https://github.com/Erickson-lopes-dev/Universo_Programado_Numeros/blob/master/03_sequencia_triangular.py
 
-![Captura de tela 2020-12-01 111443](https://user-images.githubusercontent.com/62525983/100754389-d0d51280-33c9-11eb-8d7f-322931b5ffff.png)
+![Captura de tela 2020-12-01 111443](https://user-images.githubusercontent.com/62525983/100754541-f95d0c80-33c9-11eb-97e8-19f0486239ae.png)
+
