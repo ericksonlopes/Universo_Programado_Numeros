@@ -10,9 +10,10 @@ def soma_algarismo(dado_recebido):
     return final
 
 
-for num in range(1, 10):
-    div = 360 / num
-    print(num ,div, soma_algarismo(div))
+print(soma_algarismo('1///--aksjbfsf1'))
 
+print(soma_algarismo(45))
 
-print(360 / 7)
+print(soma_algarismo("2+3"))
+
+print(f'5 * 7 = {5 * 7}, soma das casas -> {soma_algarismo(5 * 7)}')
