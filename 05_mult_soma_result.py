@@ -11,16 +11,18 @@ def soma_algarismo(dado_recebido):
 
 
 for num in range(1, 10):
-    for mult in range(1, 10):
-        print(f'{num:^3} + {mult:^3} = {num * mult:3} ({soma_algarismo(num * mult):^3})  ', end='')
-    print()
+    [print(f'{num:^3} + {mult:^3} = {num * mult:3} ({soma_algarismo(num * mult):^3})  ', end='')
+     for mult in range(1, 10)], print()
 
 print()
 
 for num in range(1, 10):
+    [print(f'{soma_algarismo(num * mult)} ', end=' ') for mult in range(1, 10)], print()
 
-    for mult in range(1, 10):
-        print(f'{soma_algarismo(num * mult)} ', end=' ')
-    print()
+print()
+
+for num in range(1, 10):
+    [print(f'{num * mult:^3} ', end=' ') for mult in range(1, 10)], print()
+
 
 
