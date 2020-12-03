@@ -11,13 +11,13 @@ def soma_algarismo(dado_recebido):
 
 
 for num in range(1, 10):
-    div = 360 / num
-    print(num ,div, soma_algarismo(div))
+    for mult in range(1, 10):
+        print(f'{num:^3} + {mult:^3} = {num * mult:^20}', end='  ')
+    print()
 
+print()
 
-print(360 / 7)
-
-
-[print(f'{i} {l}') for i, l in enumerate(list(range(n)) for n in range(0, 15))]
-
-print([i+sum(l) for i, l in enumerate(list(range(n)) for n in range(0, 15))])
+for num in range(1, 10):
+    for mult in range(1, 10):
+        print(f'{num:^3} + {mult:^3} = {soma_algarismo(num * mult):^3}', end='  ')
+    print()

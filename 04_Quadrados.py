@@ -1,3 +1,6 @@
+from math import sqrt
+
+
 def soma_algarismo(dado_recebido):
     def soma_alga(dado):
         lista_numeros = list(map(lambda trans_num: int(trans_num),
@@ -10,14 +13,7 @@ def soma_algarismo(dado_recebido):
     return final
 
 
-for num in range(1, 10):
-    div = 360 / num
-    print(num ,div, soma_algarismo(div))
-
-
-print(360 / 7)
-
-
-[print(f'{i} {l}') for i, l in enumerate(list(range(n)) for n in range(0, 15))]
-
-print([i+sum(l) for i, l in enumerate(list(range(n)) for n in range(0, 15))])
+for num, pos in enumerate(range(1, 2000)):
+    raiz = sqrt(num)
+    if raiz == int(raiz):
+        print(f"{pos:^5}", f"{soma_algarismo(pos)}", f"{raiz:^5}", f"{soma_algarismo(raiz):^5}")

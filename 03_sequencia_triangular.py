@@ -8,3 +8,4 @@ for num in range(1, 15):
 
 print('\n ', lista)
 
+print([i+sum(l) for i, l in enumerate(list(range(n)) for n in range(0, 15))])
