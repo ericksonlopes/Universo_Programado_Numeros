@@ -13,7 +13,7 @@ def soma_algarismo(dado_recebido):
     return final
 
 
-for num, pos in enumerate(range(1, 2000)):
-    raiz = sqrt(num)
-    if raiz == int(raiz):
-        print(f"{pos:^5}", f"{soma_algarismo(pos)}", f"{raiz:^5}", f"{soma_algarismo(raiz):^5}")
+print("[Soma][Num] [Raiz]")
+[print(f'{soma_algarismo(num):^5}', f"{'√' + str(num):^5}", f"{sqrt(num):^5}") for num in range(1, 2000) if
+ sqrt(num) == int(sqrt(num))]
+
