@@ -24,5 +24,3 @@ print()
 for num in range(1, 10):
     [print(f'{num * mult:^3} ', end=' ') for mult in range(1, 10)], print()
 
-
-
