@@ -15,13 +15,12 @@ def soma_algarismo(dado_recebido):
 
 lista = []
 
-for item in range(1, 10):
+for item in [1, 2, 4, 8, 7, 5]:
     lista.append([soma_algarismo(num) for num in range(item, item * 10, item)])
 
 y = [num for num in range(1, 10)]
 
 for result in lista:
     pl.plot(result, y)
-
 
 pl.show()
