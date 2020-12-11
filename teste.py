@@ -22,7 +22,7 @@ def test():
     print([i + sum(l) for i, l in enumerate(list(range(n)) for n in range(0, 15))])
 
 
-num = 2
+num = 9
 
 for x in range(1, 10):
     for y in range(1, 10):
