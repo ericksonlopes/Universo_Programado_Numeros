@@ -26,3 +26,14 @@ for num in range(1, 10):
 
 # for x in range(1, 10):
 #     [print(f'{x * y:>4} ({soma_algarismo(x * y)})', end='  ') for y in range(1, 10)], print()
+
+
+# 1 | 1
+# 2 | 5
+# 3 | 3 6 9
+# 4 | 7
+# 5 | 2
+# 6 | 3 6 9
+# 7 | Apenas resultado de sua mult 7
+# 8 | 8
+# 9 | Apenas resultado de sua mult 9

@@ -31,7 +31,8 @@ for x in range(1, 10):
 
 # for x in range(1, 10):
 #     [
-#         print(f'{x} x {y} = {x * y:^3}({soma_algarismo(x * y)}) | {(x * y) / num:^5}({soma_algarismo((x * y) / num)})')
+#         print(f'{x} x {y} = {x * y:^3}({soma_algarismo(x * y)}) |
+#         {(x * y) / num:^5}({soma_algarismo((x * y) / num)})')
 #     for y in range[1, 10]],print()
 
 # 1 1
