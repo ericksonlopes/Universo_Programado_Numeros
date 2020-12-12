@@ -16,17 +16,6 @@ for num in range(1, 10):
         [print(f'{x * y:>5}/{num} = {str((x * y) / num)[:6]:>6} ({soma_algarismo((x * y) / num)})', end='  ')
          for y in range(1, 10)], print()
 
-# num = 3
-#
-# for x in range(1, 10):
-#     [print(f'{y} x {x} = {x * y:^4}({soma_algarismo(x * y)})', end='   ') for y in range(1, 10)], print()
-#
-# for x in range(1, 10):
-#     [print(f'{str((x * y) / num)[:7]:^8}({soma_algarismo((x * y) / num)})', end='   ') for y in range(1, 10)], print()
-
-# for x in range(1, 10):
-#     [print(f'{x * y:>4} ({soma_algarismo(x * y)})', end='  ') for y in range(1, 10)], print()
-
 
 # 1 | 1
 # 2 | 5
@@ -36,4 +25,4 @@ for num in range(1, 10):
 # 6 | 3 6 9
 # 7 | Apenas resultado de sua mult 7
 # 8 | 8
-# 9 | Apenas resultado de sua mult 9
+# 9 | Apenas resultado de sua mult 9 - 3 6 9

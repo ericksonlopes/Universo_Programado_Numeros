@@ -35,12 +35,15 @@ for x in range(1, 10):
 #         {(x * y) / num:^5}({soma_algarismo((x * y) / num)})')
 #     for y in range[1, 10]],print()
 
-# 1 1
-# 2 5
-# 3 369
-# 4 7
-# 5 2
-# 6 369
-# 7 ele mesmo/somente 7
-# 8 8
-# 9 resultados por 9
+# num = 3
+#
+# for x in range(1, 10):
+#     [print(f'{y} x {x} = {x * y:^4}({soma_algarismo(x * y)})', end='   ') for y in range(1, 10)], print()
+#
+# for x in range(1, 10):
+#     [print(f'{str((x * y) / num)[:7]:^8}({soma_algarismo((x * y) / num)})', end='   ') for y in range(1, 10)], print()
+
+# for x in range(1, 10):
+#     [print(f'{x * y:>4} ({soma_algarismo(x * y)})', end='  ') for y in range(1, 10)], print()
+
+
