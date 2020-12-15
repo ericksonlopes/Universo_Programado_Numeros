@@ -26,3 +26,6 @@ for num in range(1, 10):
 # 7 | Apenas resultado de sua mult 7
 # 8 | 8
 # 9 | Apenas resultado de sua mult 9 - 3 6 9
+
+
+#2 tem relção com o 5
