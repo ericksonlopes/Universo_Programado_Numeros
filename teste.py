@@ -10,40 +10,66 @@ def soma_algarismo(dado_recebido):
     return final
 
 
-def test():
-    for num in range(1, 10):
-        div = 360 / num
-        print(num, div, soma_algarismo(div))
+# num = 1
 
-    print(360 / 7)
-
-    [print(f'{i} {l}') for i, l in enumerate(list(range(n)) for n in range(0, 15))]
-
-    print([i + sum(l) for i, l in enumerate(list(range(n)) for n in range(0, 15))])
+# for y in range(35):
+#     x = num + 1
+#     print(f'{x:>10} ({soma_algarismo(x)})', end=' ')
+#     num = num + x
+#     print(f'{num} {x}')
 
 
-num = 9
+# for y in range(10):
+#     print(num, end=' + ')
+#     x = num + 1
+#     print(f'{x:^2}', end=' = ')
+#     num = soma_algarismo(num + x)
+#     print(num)
 
-for x in range(1, 10):
-    for y in range(1, 10):
-        print(f'{x} x {y} = {x * y:^3}({soma_algarismo(x * y)}) | {(x * y) / num:^5}({soma_algarismo((x * y) / num)})')
-    print()
-
-# for x in range(1, 10):
-#     [
-#         print(f'{x} x {y} = {x * y:^3}({soma_algarismo(x * y)}) |
-#         {(x * y) / num:^5}({soma_algarismo((x * y) / num)})')
-#     for y in range[1, 10]],print()
-
-# num = 3
+# lista = []
+# for num in range(1, 10):
+#     lista_mult = []
+#     for mult in range(1, 10):
+#         lista_mult.append(num * mult)
+#     lista.append(lista_mult)
 #
-# for x in range(1, 10):
-#     [print(f'{y} x {x} = {x * y:^4}({soma_algarismo(x * y)})', end='   ') for y in range(1, 10)], print()
-#
-# for x in range(1, 10):
-#     [print(f'{str((x * y) / num)[:7]:^8}({soma_algarismo((x * y) / num)})', end='   ') for y in range(1, 10)], print()
+# for mult in lista:
+#     print(mult)
 
-# for x in range(1, 10):
-#     [print(f'{x * y:>4} ({soma_algarismo(x * y)})', end='  ') for y in range(1, 10)], print()
+
+# a = [9, 5, 1, 6, 2, 7, 3, 8, 4]
+
+# cont = 1
+#
+# while cont != 10:
+#     print(cont, x[cont - 1])
+#     cont += 1
+#
+# num = 1
+# for y in range(10):
+#     print(num, end=' + ')
+#     x = num + 1
+#     print(f'{x:^2}', end=' = ')
+#     num = soma_algarismo(num + x)
+#     print(num)
+
+
+# x.index(9)
+
+#
+a = [9, 5, 1, 6, 2, 7, 3, 8, 4]
+
+num = 1
+for y in range(10):
+    print(num, end=' + ')
+    x = num + 1
+    print(f'{x:^2}', end=' = ')
+    num = soma_algarismo(num + x)
+    print(num)
+
+
+
+
+
 
 
