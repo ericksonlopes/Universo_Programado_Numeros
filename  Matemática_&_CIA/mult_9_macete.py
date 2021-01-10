@@ -1,5 +1,12 @@
-[print(f'9 x {num:>2} = {9 * num:>3}  ({num - len(str(num))}{((num - len(str(num))) - 9 * len(str(num))) * -1})')
- for num in range(1, 20)]
+for num in range(1, 20):
+    if num == 10:
+        print(f'9 x {num:>2} = {9 * num:>3} ({9 * num})')
+    else:
+        print(f'9 x {num:>2} = {9 * num:>3} ({num - len(str(num))}{((num - len(str(num))) - 9 * len(str(num))) * -1})')
+
+# [print(f'9 x {num:>2} = {9 * num:>3}  ({num - len(str(num))}{((num - len(str(num))) - 9 * len(str(num))) * -1})')
+# for num in range(1, 20)]
+
 
 # a cada casa decimal a sequencia muda
 
