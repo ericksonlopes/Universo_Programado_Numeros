@@ -12,12 +12,12 @@ def soma_algarismo(dado_recebido):
 
 num = 20
 
-# for x in range(1, 11):
-#     for item in range(1, 20):
-#         mult = item * x
-#
-#         print(f"{mult:>3} {soma_algarismo(mult)}")
-#     print()
+for x in range(1, 11):
+    for item in range(1, 11):
+        mult = item * x
+
+        print(f"{mult:>3} {soma_algarismo(mult)}")
+    print()
 
 with open('75.txt', 'w') as arquivo:
     for item in range(1, 20):
