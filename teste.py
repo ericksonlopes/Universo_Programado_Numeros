@@ -57,20 +57,18 @@ def soma_algarismo(dado_recebido):
 # x.index(9)
 
 #
-a = [9, 5, 1, 6, 2, 7, 3, 8, 4]
-
-num = 1
-for y in range(10):
-    print(num, end=' + ')
-    x = num + 1
-    print(f'{x:^2}', end=' = ')
-    num = soma_algarismo(num + x)
-    print(num)
+# a = [9, 5, 1, 6, 2, 7, 3, 8, 4]
+#
+# num = 1
+# for y in range(10):
+#     print(num, end=' + ')
+#     x = num + 1
+#     print(f'{x:^2}', end=' = ')
+#     num = soma_algarismo(num + x)
+#     print(num)
 
 
 #  Primeiro commit do ano
 
-
-
-
-
+lista_de_linhas = open('words.txt').readlines()
+print(len(lista_de_linhas))
